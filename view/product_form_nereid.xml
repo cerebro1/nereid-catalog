@@ -26,9 +26,7 @@ this repository contains the full copyright notices and license terms. -->
                 <field name="long_description"/>
             </group>
         </page>
-        <page string="E-Commerce Details"
-                id="ecomm_det"
-                states="{'invisible': Not(Bool(Eval('displayed_on_eshop')))}">
+        <page string="E-Commerce Details" id="ecomm_det">
             <label name="uri"/>
             <field name="uri"/>
             <label name="use_template_images"/>
